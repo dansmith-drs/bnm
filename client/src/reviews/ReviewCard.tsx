@@ -30,7 +30,7 @@ const styles = (theme: Theme) =>
       height: '100%',
       display: 'flex',
       flexDirection: 'column',
-      maxWidth: 345
+      width: 275
     },
     cardContent: {
       flexGrow: 1
