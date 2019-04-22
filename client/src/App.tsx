@@ -38,7 +38,7 @@ class App extends Component<WithStyles<typeof styles>, HomeState> {
   constructor(props: WithStyles<typeof styles>) {
     super(props);
     this.state = {
-      sideBarOpen: true
+      sideBarOpen: false
     };
   }
 

@@ -92,9 +92,6 @@ export interface HomeAppBarProps
   sideBarOpen: boolean;
   handleSideBar: (open: boolean) => void;
 }
-
-// type Combined Props = HomeAppBarProps & RouteComponentProps<{}> & WithStyles<typeof styles>;
-
 class HomeAppBar extends Component<HomeAppBarProps, HomeAppBarState> {
   constructor(props: HomeAppBarProps) {
     super(props);
